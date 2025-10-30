@@ -45,7 +45,7 @@ export default function Home() {
             <button onClick={() => setActivePage("Studies")} className={styles.navButton}>📚Studies</button>
             <button onClick={() => setActivePage("Career")} className={styles.navButton}>💼Career</button>
             <button onClick={() => setActivePage("Travels")} className={styles.navButton}>🌍Travels</button>
-            <a href="../assets/WalterFerreiraRamosEN" className={styles.navButton} >
+            <a download={true} href="../assets/WalterFerreiraRamosEN" className={styles.navButton} >
             📝Resume/CV
             </a>
           </div>
