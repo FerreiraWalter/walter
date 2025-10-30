@@ -1,8 +1,9 @@
 import Career from "./components/Career";
 import HomePage from "./components/HomePage";
 import UnderConstruction from "./components/UnderConstruction/UnderConstruction";
-import styles from "./Home.module.css";
 import { useState } from "react";
+
+import styles from "./Home.module.css";
 
 export default function Home() {
   const [activePage, setActivePage] = useState<string>("Home");
