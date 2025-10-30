@@ -1,0 +1,21 @@
+.holidayList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.holidayItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+}
+
+.holidayItem span:first-child {
+  color: #777;
+}
+
+.holidayItem span:last-child {
+  font-weight: 500;
+}

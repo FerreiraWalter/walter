@@ -1,0 +1,68 @@
+.careerContainer {
+  background-color: #fffbe6;
+  border: 2px solid #000;
+  box-shadow: inset 2px 2px 0 #ccc;
+  font-family: 'Inter', sans-serif;
+  color: #000;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+  background: #e0e0e0;
+  border: 2px solid #000;
+  padding: 5px 10px;
+  box-shadow: inset 1px 1px 0 #fff, 2px 2px 0 #ccc;
+}
+
+.jobBox {
+  border: 2px solid #000;
+  background: #ffffff;
+  padding: 10px;
+  box-shadow: inset 2px 2px 0 #ccc;
+}
+
+.jobBox h3 {
+  margin: 0;
+  background: #dcdcdc;
+  border: 1px solid #000;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.jobBox p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.jobBox ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.jobBox li {
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.skillsBox {
+  border: 2px solid #000;
+  background: #f3f3f3;
+  padding: 10px;
+  box-shadow: inset 2px 2px 0 #ccc;
+}
+
+.skillsBox h3 {
+  background: #dcdcdc;
+  border: 1px solid #000;
+  padding: 5px;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.skillsBox p {
+  margin: 5px 0;
+  font-size: 14px;
+}

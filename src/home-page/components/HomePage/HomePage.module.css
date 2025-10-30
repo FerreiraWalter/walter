@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+
+
+
+.profile {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #000;
+  object-fit: cover;
+}
+
+.info h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.infoTitle {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.infoMainText {
+  margin-bottom: 20px;
+}
+
+.info span {
+  font-weight: 700;
+}
+
+.work {
+  border: 2px solid #000;
+  background: #fffbe6;
+  padding: 10px;
+  box-shadow: inset 2px 2px 0 #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.work img {
+  width: 100%;
+  border: 1px solid #000;
+}
+
+
