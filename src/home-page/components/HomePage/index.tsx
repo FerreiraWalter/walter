@@ -23,7 +23,7 @@ export default function HomePage() {
           </a>
         </p>
         <p>
-        <strong>Socials:</strong> <a href="#">Linkedin</a> / <a href="#">Instagram</a>
+        <strong>Socials:</strong> <a target="_blank" href="https://www.linkedin.com/in/walter-ferreira-161b871b9/">Linkedin</a> / <a target="_blank" href="https://github.com/ferreirawalter">Github</a>
         </p>
       </div>
     </div>
