@@ -7,7 +7,7 @@ export default function HomePage() {
       <div className={styles.profile}>
         <div className={styles.testes}>
           <img src={me} alt="me" className={styles.profileImg} />
-          <div>
+          <div className={styles.specifications}>
             <h2>
               <strong>Walter Ferreira</strong>
             </h2>

@@ -60,3 +60,13 @@
     padding-bottom: 12px;
   }
 }
+
+@media screen and (max-width: 429px) {
+  .testes h2 {
+    font-size: 17px;
+  }
+
+  .testes p {
+    font-size: 14px;
+  }
+}
