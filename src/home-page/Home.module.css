@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 .mainContainer {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-
 
 .headerContainer {
   display: flex;
@@ -23,15 +22,14 @@
   border: 2px solid white;
 }
 
-
 .retroTitle {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 22px;
   color: #000000;
 }
 
 .buttonHome {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: rgb(218, 218, 218);
   font-size: 16px;
   margin-bottom: 20px;
@@ -39,20 +37,21 @@
 }
 
 .retroDescription {
-  font-family: 'Press Start 2P', monospace;
+  font-family: "Press Start 2P", monospace;
   font-size: 18px;
   color: #000000;
   margin-top: -10px;
 }
 
-body, html {
+body,
+html {
   height: 100%;
 }
 
 .background {
-  background: url('./assets/cloud.jpeg') center/cover no-repeat;
-  height: 100vh;
+  background: url("./assets/cloud.jpeg") center/cover no-repeat;
   display: flex;
+  padding: 54px 0px 6px 0px;
   justify-content: center;
   align-items: center;
 }
@@ -80,7 +79,7 @@ body, html {
 
 .headerButtons {
   display: flex;
-  gap: 5px
+  gap: 5px;
 }
 
 .windowButtons {
@@ -93,10 +92,11 @@ body, html {
 
 .nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: normal;
   background: #d0d0d0;
   border-bottom: 2px solid #000;
-  padding: 5px 0;
+  gap: 12px;
+  padding: 5px 21px;
 }
 
 .navButton {
@@ -121,4 +121,30 @@ body, html {
   padding: 20px;
   overflow-y: auto;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 499px) {
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    background: #d0d0d0;
+    border-bottom: 2px solid #000;
+    gap: 0px;
+    padding: 5px 0;
+  }
+
+  .navButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000;
+    padding: 4px 5px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .nav a {
+    font-size: 12px;
+  }
 }

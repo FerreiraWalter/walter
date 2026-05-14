@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 .profile {
   display: flex;
@@ -10,15 +7,14 @@
 }
 
 .profile img {
-  width: 120px;
-  height: 120px;
+  width: 145px;
+  height: 145px;
   border: 2px solid #000;
   object-fit: cover;
 }
 
-.info h2 {
+.testes h2 {
   font-size: 20px;
-  margin-bottom: 20px;
 }
 
 .infoTitle {
@@ -30,7 +26,7 @@
   margin-bottom: 20px;
 }
 
-.info span {
+.testes span {
   font-weight: 700;
 }
 
@@ -48,4 +44,19 @@
   border: 1px solid #000;
 }
 
+@media screen and (max-width: 500px) {
+  .profile {
+    display: block;
+  }
 
+  .testes h2 {
+    font-size: 20px;
+  }
+
+  .testes {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-bottom: 12px;
+  }
+}
